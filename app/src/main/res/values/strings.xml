@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Editar Contactos</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion_contacto">Descripción contacto</string>
+    <string name="guardar_datos">Guardar datos</string>
+    <string name="confirmar_datos">Confirmar datos</string>
+    <string name="tv_nombre">Nombre</string>
+    <string name="tv_fecha">Fecha Nacimiento: </string>
+    <string name="tv_n_fecha">27/02/1979</string>
+    <string name="tv_telefono">Tel. </string>
+    <string name="tv_n_telefono">555 666 777</string>
+    <string name="tv_email">Email: </string>
+    <string name="tv_n_email">email@email.com</string>
+    <string name="tv_descripcion">Descripción: </string>
+    <string name="tv_n_descripcion">Descripción del contacto</string>
+    <string name="btn_editar_datos">Editar datos</string>
+</resources>
