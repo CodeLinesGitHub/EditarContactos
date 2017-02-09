@@ -4,20 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class DetalleContacto extends AppCompatActivity {
 
-    public TextView _nombreCompleto;
-    public TextView _fechaNacimiento;
-    public TextView _telefono;
-    public TextView _email;
-    public TextView _descripcionContacto;
-    public String _dia;
-    public String _mes;
-    public String _ano;
-    private Button _btnEditar;
+    public TextView _nombreCompleto, _fechaNacimiento, _telefono, _email, _descripcionContacto;
+    public String _dia, _mes, _ano;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +35,6 @@ public class DetalleContacto extends AppCompatActivity {
         _dia                    = dia;
         _mes                    = String.valueOf(Integer.parseInt(mes)-1);
         _ano                    = ano;
-        _btnEditar              = (Button)findViewById(R.id.btnEditar);
 
         _nombreCompleto.setText(nombre_completo);
         _fechaNacimiento.setText(fecha_nacimiento);
