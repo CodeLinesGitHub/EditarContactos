@@ -3,4 +3,5 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="titulo_confirmar">22sp</dimen>
+    <dimen name="tv_fecha_nacimiento">18sp</dimen>
 </resources>

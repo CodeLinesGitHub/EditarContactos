@@ -10,19 +10,12 @@ import android.widget.DatePicker;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    public TextInputEditText tietNombreCompleto;
+    public TextInputEditText tietNombreCompleto, tietTelefono, tietEmail, tietDescripcionContacto;
     public DatePicker tietFechaNacimiento;
-    public TextInputEditText tietTelefono;
-    public TextInputEditText tietEmail;
-    public TextInputEditText tietDescripcionContacto;
     public Button btnGuardar;
 
-    public int dia;
-    public int mes;
-    public int year;
-    public String stringDia;
-    public String stringMes;
-    public String stringYear;
+    public int dia, mes, year;
+    public String stringDia, stringMes, stringYear;
 
 
     @Override
